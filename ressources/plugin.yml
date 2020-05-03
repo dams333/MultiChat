@@ -1,0 +1,20 @@
+name: MultiChats
+version: 1.0.0
+author: Dams333
+main: ch.dams333.multichats.MultiChats
+commands:
+  chat:
+    description: Gerer un chat
+    permission: chats.chat
+  send:
+    description: Envoyer un message dans un de vos chats
+    permission: chats.send
+  spotter:
+    description: Entrer en mode spotter
+    permission: chats.spotter
+  modchat:
+    description: Gestion des chats pour les moderateurs
+    permission: chats.modchat
+  mp:
+    description: Envoyer un message prive
+    permission: chats.mp
